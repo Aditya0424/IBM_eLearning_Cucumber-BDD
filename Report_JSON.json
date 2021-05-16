@@ -1,0 +1,248 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-16T05:43:45.240Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12660724100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "util.hooks.initdriver()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Validate eLearning Signup",
+        "description": "",
+        "id": "elearning-signup;validate-elearning-signup;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16690954700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User has access to eLearning HomePage",
+            "match": {
+              "location": "stepDefinition.StepDefinition.user_has_access_to_elearning_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12962741500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates to the eLearning HomePage",
+            "match": {
+              "location": "stepDefinition.StepDefinition.user_navigates_to_the_elearning_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2926167400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks on Signup button",
+            "match": {
+              "location": "stepDefinition.StepDefinition.user_clicks_on_signup_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2105120400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Registration page is displayed",
+            "match": {
+              "location": "stepDefinition.StepDefinition.registration_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3906223500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user fills in all mandatory values \"Fname24\",\"Lname24\",\"email24@email.com\",\"Usname24\",\"acbdqwer1234\",\"acbdqwer1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fname24",
+                  "offset": 36
+                },
+                {
+                  "val": "Lname24",
+                  "offset": 46
+                },
+                {
+                  "val": "email24@email.com",
+                  "offset": 56
+                },
+                {
+                  "val": "Usname24",
+                  "offset": 76
+                },
+                {
+                  "val": "acbdqwer1234",
+                  "offset": 87
+                },
+                {
+                  "val": "acbdqwer1234",
+                  "offset": 102
+                }
+              ],
+              "location": "stepDefinition.StepDefinition.user_fills_in_all_mandatory_values_somethingsomethingsomethingsomethingsomethingsomething(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6828390500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on Register button",
+            "match": {
+              "location": "stepDefinition.StepDefinition.user_clicks_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2155123300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Registration should be successful and should display Welcome Message with \"Fname24\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fname24",
+                  "offset": 80
+                }
+              ],
+              "location": "stepDefinition.StepDefinition.user_registration_should_be_successful_and_should_display_welcome_message_with_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7024401800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on homepage",
+            "match": {
+              "location": "stepDefinition.StepDefinition.user_clicks_on_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8753500700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Clicks on Compose",
+            "match": {
+              "location": "stepDefinition.StepDefinition.clicks_on_compose()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15348877900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "enters receipient address, subject and message \"vir\", \"Test Mail\", \"Hello World!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vir",
+                  "offset": 48
+                },
+                {
+                  "val": "Test Mail",
+                  "offset": 55
+                },
+                {
+                  "val": "Hello World!!",
+                  "offset": 68
+                }
+              ],
+              "location": "stepDefinition.StepDefinition.enters_receipient_address_subject_and_message_something_something_something(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16107921300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Clicks on Send Message button",
+            "match": {
+              "location": "stepDefinition.StepDefinition.clicks_on_send_message_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328018700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Mail is sent successfully and a Confirmation of mail sent to \"vir\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vir",
+                  "offset": 62
+                }
+              ],
+              "location": "stepDefinition.StepDefinition.mail_is_sent_successfully_and_a_confirmation_of_mail_sent_to_something_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "eLearning Signup",
+    "description": "",
+    "id": "elearning-signup",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature_package/elearning.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
